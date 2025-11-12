@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Higher Mathematics Complete",
+      "slug": "higher-math-complete-course",
+      "description": "Master Higher Mathematics including Algebra, Geometry, Trigonometry, and Calculus with step-by-step video lessons and exercises.",
+      "price": 5000,
+      "instructor": "Md. Rafiq Ahmed",
+      "isFeatured": true,
+      "image": "https://example.com/images/higher-math-course.jpg"
+    },
+    {
+      "id": 2,
+      "title": "English Writing Skills",
+      "slug": "english-grammar-and-writing-skills",
+      "description": "Improve your English grammar, vocabulary, and writing with real-life examples, quizzes, and speaking tips.",
+      "price": 4000,
+      "instructor": "Farhana Sultana",
+      "isFeatured": true,
+      "image": "https://example.com/images/english-course.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bangla Literature and Grammar",
+      "slug": "bangla-literature-and-grammar",
+      "description": "Explore Bangla literature, grammar, and creative writing to strengthen your language skills for exams and personal development.",
+      "price": 3500,
+      "instructor": "Abdul Alim",
+      "isFeatured": true,
+      "image": "https://example.com/images/bangla-course.jpg"
+    },
+    {
+      "id": 4,
+      "title": "General Science for Levels",
+      "slug": "general-science-for-all-levels",
+      "description": "Understand core scientific concepts from Physics, Chemistry, and Biology through experiments and real-world examples.",
+      "price": 3000,
+      "instructor": "Tahsin Mahmud",
+      "isFeatured": false,
+      "image": "https://example.com/images/science-course.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Chemistry Fundamentals",
+      "slug": "chemistry-fundamentals",
+      "description": "Learn atomic structure, chemical reactions, bonding, and equations with visual explanations and practice.",
+      "price": 4500,
+      "instructor": "Nadia Khan",
+      "isFeatured": true,
+      "image": "https://example.com/images/chemistry-course.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Physics Made Easy",
+      "slug": "physics-made-easy",
+      "description": "Understand motion, force, energy, light, and electricity through simplified explanations, animations, and problem solving.",
+      "price": 4800,
+      "instructor": "Sabbir Hossain",
+      "isFeatured": true,
+      "image": "https://example.com/images/physics-course.jpg"
+    }
+  ]
+}
