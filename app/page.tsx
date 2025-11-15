@@ -5,6 +5,7 @@ import WhyChooseUs from "@/app/components/WhyChooseUs";
 import TestimonialCards from "@/app/components/TestimonialCards";
 import UPCamingFeatures from "@/app/components/UPCamingFeatures";
 import Teacher from "@/app/components/Teacher";
+import Footer from "@/app/components/Footer";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
      <TestimonialCards/>
      <UPCamingFeatures/>
      <Teacher/>
+     <Footer/>
     </main>
    
   );
