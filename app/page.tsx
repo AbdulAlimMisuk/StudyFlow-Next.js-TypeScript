@@ -4,6 +4,7 @@ import FeaturedCourses from "@/app/components/FeaturedCourses";
 import WhyChooseUs from "@/app/components/WhyChooseUs";
 import TestimonialCards from "@/app/components/TestimonialCards";
 import UPCamingFeatures from "@/app/components/UPCamingFeatures";
+import Teacher from "@/app/components/Teacher";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
      <WhyChooseUs/>
      <TestimonialCards/>
      <UPCamingFeatures/>
+     <Teacher/>
     </main>
    
   );
