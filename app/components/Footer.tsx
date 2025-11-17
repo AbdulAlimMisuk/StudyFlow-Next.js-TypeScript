@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Footer() {
@@ -17,20 +18,28 @@ export default function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Link</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link
+                href={'/'}
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
+            </li>
+             <li>
+              <Link
+                href={'/courses/all-courses'}
+                className="hover:text-white transition-colors duration-300"
+              >
+               All Courses
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href={'/contact'}
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -38,28 +47,28 @@ export default function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link
+                href={'https://www.facebook.com/'}
                 className="hover:text-white transition-colors duration-300"
               >
                 Facebook
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href={'https://x.com/'}
                 className="hover:text-white transition-colors duration-300"
               >
                 Twitter
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href={'https://www.linkedin.com/feed/'}
                 className="hover:text-white transition-colors duration-300"
               >
                 Linkedin
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

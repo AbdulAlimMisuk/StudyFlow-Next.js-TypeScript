@@ -53,13 +53,6 @@ export default function UPCamingFeatures() {
           <div className='mt-10'>
               <HoverEffect items={features}/>
           </div>
-          
-          <div className="mt-10 text-center">
-            <Link href={'/courses'} 
-            className="px-4 py-3 rounded-full bg-white border-neutral-600 hover:bg-gray-200 text-gray-800 transition duration-300  ">
-              view All Courses
-            </Link>
-        </div>
       </div>
     </div>
   )
