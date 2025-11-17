@@ -2,11 +2,13 @@
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
 import coursData from "@/app/data/subject_courses.json";
+import Footer from "@/app/components/Footer";
 
 
 export default function page() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
+    <>
+    <div className="min-h-screen bg-black py-12 pt-36 pl-10">
       <h1 className="text-3xl md:text-4xl text-center font-sans font-bold mb-5 text-white ">
         All courses {coursData.courses.length}
       </h1>
@@ -59,5 +61,7 @@ export default function page() {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   )
 }

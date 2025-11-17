@@ -25,7 +25,7 @@ export default function HeroSectio() {
       </div>
       <div className="mt-4">
 
-        <Link href={"/courser"}>
+        <Link href={"/courses/all-courses"}>
         <Button  borderRadius="1.75rem"
         
         >

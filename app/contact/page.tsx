@@ -1,9 +1,11 @@
 "use client";
 import React from "react";
 import { BackgroundBeams } from "@/app/components/ui/background-beams";
+import Footer from "@/app/components/Footer";
 
 export default function page() {
   return (
+    <>
     <div className="min-h-screen bg-gray-900 py-12 pt-36">
 
       <h1 className="text-3xl md:text-4xl text-center font-sans font-bold mb-5 text-white">
@@ -33,13 +35,15 @@ export default function page() {
           placeholder="Write your message..."
         ></textarea>
 
-        <button className="w-80 md:w-96 px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium cursor-pointer">
+        <button className="w-80 md:w-96 px-4 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-medium">
           Send Message
         </button>
 
       </div>
        <BackgroundBeams />
     </div>
+    <Footer/>
+    </>
   );
 }
 

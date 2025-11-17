@@ -8,6 +8,7 @@ interface Courses {
     title: string,
     slug: string,
     description: string,
+    subject: string,
     price: number,
     instructor: string,
     isFeatured: boolean,
@@ -23,7 +24,7 @@ export default function FeaturedCourses() {
             </div>
         </div>
         <div className="mt-10 ">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center px-5 ">
                 {featuredCourses.map((course:Courses) => (
                   <div key={course.id} className=" p-4 flex justify-center text-white">
                     <BackgroundGradient
@@ -31,7 +32,7 @@ export default function FeaturedCourses() {
                        <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow ">
                         <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
                         <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
-                        <Link className="mt-2 px-4 py-2 rounded-full bg-white border-neutral-600 hover:bg-gray-200 text-gray-800 transition duration-300 " href={`/courses/${course.slug}`}>
+                        <Link className="mt-2 px-4 py-2 rounded-full bg-white border-neutral-600 hover:bg-gray-200 text-gray-800 transition duration-300 " href={"/courses/all-courses"}>
                         Learn More
                         </Link>
                        </div>
@@ -41,7 +42,7 @@ export default function FeaturedCourses() {
             </div>
         </div>
         <div className="mt-20 text-center">
-            <Link href={'/courses'} 
+            <Link href={'/courses/all-courses'} 
             className="px-4 py-3 rounded-full bg-white border-neutral-600 hover:bg-gray-200 text-gray-800 transition duration-300  ">
               view All Courses
             </Link>
